@@ -1,25 +1,32 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <link rel="stylesheet" href="style.css">
- </head>
- <body>
-     <div class="container">
-         <nav class="navbar">
-             <div class="navbar__left">
-                 <h3 class="navbar__left-heading">COLOR</h3>
-             </div>
-             <div class="navbar__right">
-                 <a href="#" class="navbar__right-list">Home</a>
-                 <a href="#" class="navbar__right-list">About us</a>
-                 <a href="#" class="navbar__right-list">Services</a>
-                 <button class="navbar__right-button">Sign up</button>
-             </div>
-         </nav>
-     </div>
- </body>
- </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="#home" id="navbar__logo">COLOR</a>
+                <div class="navbar__toggle" id="menu">
+                    <img src="./menu.svg" alt="" class="navbar__toggle-img">
+                    <!-- <img src="./x.svg" alt="" class="delete dele"> -->
+                </div>
+                <div class="navbar__link" id="navbar__links">
+                    <div class="navbar-menu">
+                        <a href="#home" class="navbar__link-list">Home</a>
+                    <a href="#about" class="navbar__link-list">About</a>
+                    <a href="#services" class="navbar__link-list">Services</a>
+                    <button class="navbar__btn">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
